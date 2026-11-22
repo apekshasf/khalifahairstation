@@ -192,6 +192,7 @@ ul, ol {
 .section-title span.gold-gradient-text {
   background: var(--gold-gradient);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
@@ -594,6 +595,7 @@ ul, ol {
 .hero-title .gold-accent {
   background: var(--gold-gradient);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
